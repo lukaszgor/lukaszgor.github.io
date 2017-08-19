@@ -5,8 +5,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" placeholder="imie">
+<form action="form.php" method="post">
+   <label for="imie">Imię:</label><br /> 
+     <input type="text" name="imie" id="imie"><br /> 
+     <label for="nazwisko">nazwisko:</label><br /> 
+     <input type="text" name="nazwisko" id="nazwisko"><br /> 
+     <label for="email">email:</label><br /> 
+     <input type="text" name="email" id="email"><br /> 
+     <label for="tel">tel:</label><br /> 
+     <input type="text" name="tel" id="tel"><br /> 
+     <label for="wiad">wiadomosc:</label><br /> 
+<!--     <input type="text" name="wiad" id="wiad"><br/> -->
+   <textarea name="wiad" rows="10" cols="30">
+Prosze napisac wiadomosc tutaj!
+</textarea>
     </form>
 </body>
 </html>
