@@ -8,27 +8,28 @@
 <form action="https://formspree.io/lukasz.gg13@gmail.com"
       method="POST">
    <label for="imie">Imię:</label><br /> 
-     <input type="text" name="imie" id="imie"><br /> 
+     <input type="text" name="imie" id="imie"requiired><br /> 
      <label for="nazwisko">nazwisko:</label><br /> 
-     <input type="text" name="nazwisko" id="nazwisko"><br /> 
+     <input type="text" name="nazwisko" id="nazwisko"requiired><br /> 
      <label for="email">email:</label><br /> 
-     <input type="text" name="email" id="email"><br /> 
+     <input type="text" name="email" id="email"requiired><br /> 
      <label for="tel">tel:</label><br /> 
-     <input type="text" name="tel" id="tel"><br /> 
+     <input type="text" name="tel" id="tel"requiired><br /> 
      <label for="wiad">wiadomosc:</label><br /> 
 <!--     <input type="text" name="wiad" id="wiad"><br/> -->
    <textarea name="wiad" rows="10" cols="30">
 Prosze napisac wiadomosc tutaj!
 </textarea> <br>
-<select name="miasta">   <option value="krk">Kraków</option>    <option value="wwa" selected>Warszawa</option>   <option value="poznan">Poznan</option> </select><br>
-  <input type="radio" name="gender" value="facet" checked> Male<br>
-  <input type="radio" name="gender" value="kobieta"> Female<br>
-  <input type="radio" name="gender" value="inne"> Other <br>
-  <input type="checkbox" name="zgoda" value="Bike"> Zgadzam się na wszystko<br>
+<select name="miasta" required>   <option value="krk">Kraków</option>    <option value="wwa" selected>Warszawa</option>   <option value="poznan">Poznan</option> </select><br>
+ <label for="plec">Plec: <br></label>
+  <input type="radio" name="gender" value="facet" checked requiired> Male<br>
+  <input type="radio" name="gender" value="kobieta" requiired> Female<br>
+  <input type="radio" name="gender" value="inne" requiired> Other <br>
+  <input type="checkbox" name="zgoda" value="Bike" requiired> Zgadzam się na wszystko<br>
   
+Kod pocztowy <input type="text" name="kod" 
+pattern="[Az-xyz]{2}" title="Three letter country code">
 
- 
-     
      
    <input type="submit" value="send">
    
