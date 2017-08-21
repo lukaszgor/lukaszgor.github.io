@@ -18,19 +18,19 @@
         <input type="text" name="tel" id="tel" required><br />
         
         
-        <label for="wiad">wiadomosc:</label><br />
+        <label for="wiadomosc">wiadomosc:</label><br />
         <!--     <input type="text" name="wiad" id="wiad"><br/> -->
-        <textarea name="wiad" rows="10" cols="30" placeholder="Prosze napisac wiadomosc tutaj..."></textarea> <br>
+        <textarea name="wiadomosc" id="wiadomosc" rows="10" cols="30" placeholder="Prosze napisac wiadomosc tutaj..."></textarea> <br>
         
         <label for="miasta">Miasta</label>
-        <select name="miasta">   <option value="">Kraków</option>    <option value="" selected>Warszawa</option>   <option value="">Poznan</option> </select><br>
+        <select name="miasta" id="miasta">   <option value="">Kraków</option>    <option value="" selected>Warszawa</option>   <option value="">Poznan</option> </select><br>
         <label for="plec">Plec: <br></label>
-        <input type="radio" name="gender" value="facet" checked required> Male<br>
-        <input type="radio" name="gender" value="kobieta" required> Female<br>   <input type="radio" name="gender" value="inne" required> Other<br>   
+        <input type="radio" name="gender" id="plec" value="facet" checked required > Male<br>
+        <input type="radio" name="gender"  value="kobieta" required > Female<br>   <input type="radio" name="gender"  value="inne" required > Other<br>   
         
         
          <label for="checkbox">Checkbox:<br></label>
-        <input type="checkbox" name="zgoda" value="Bike" required> zgoda na dane osobowe<br>   
+        <input type="checkbox" name="zgoda" id="checkbox" value="Bike" required> zgoda na dane osobowe<br>   
 
         <input type="submit" value="send">
 
