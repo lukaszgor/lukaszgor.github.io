@@ -16,21 +16,32 @@
         <input type="text" name="email" id="email" required><br />
         <label for="tel">tel:</label><br />
         <input type="text" name="tel" id="tel" required><br />
-        
-        
+
+
         <label for="wiadomosc">wiadomosc:</label><br />
         <!--     <input type="text" name="wiad" id="wiad"><br/> -->
         <textarea name="wiadomosc" id="wiadomosc" rows="10" cols="30" placeholder="Prosze napisac wiadomosc tutaj..."></textarea> <br>
-        
+
         <label for="miasta">Miasta</label>
         <select name="miasta" id="miasta">   <option value="">Kraków</option>    <option value="" selected>Warszawa</option>   <option value="">Poznan</option> </select><br>
-        <label for="plec">Plec: <br></label>
-        <input type="radio" name="gender" id="plec" value="facet" checked required > Male<br>
-        <input type="radio" name="gender"  value="kobieta" required > Female<br>   <input type="radio" name="gender"  value="inne" required > Other<br>   
+        
+     
+        
+              
+<label for="plec"> Płec:<br></label>
+<label for="facet">
+<input type="radio" name="gender" id="facet" value="facet" checked required>Mężczyzna<br></label>
+<label for="kobieta"> 
+<input type="radio" name="gender" value="kobieta" required> Kobieta<br></label>
+<label for="gender">  <input type="radio" name="gender" value="inne" required> Gender<br></label>
         
         
-         <label for="checkbox">Checkbox:<br></label>
-        <input type="checkbox" name="zgoda" id="checkbox" value="Bike" required> zgoda na dane osobowe<br>   
+        
+        
+        
+        
+        <label for="checkbox">Checkbox:<br></label>
+        <input type="checkbox" name="zgoda" id="checkbox" value="Bike" required> zgoda na dane osobowe<br>
 
         <input type="submit" value="send">
 
