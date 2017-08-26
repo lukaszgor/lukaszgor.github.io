@@ -23,6 +23,9 @@ body{
     color: white;
     font-size: 30px;
     border: none;
+    border-radius: 20px;
+    outline: none;
+     transition-duration: 2s;
     
 }
 input:empty{
@@ -48,9 +51,17 @@ select{
     background-color:  #2b4a64 ;
     border: none;
     color: white;
+    
 }
 
 
 .pole{
     width: 300px;
+}
+#przycisk:hover{
+   
+    transition-duration: 2s;
+     
+    background-color: greenyellow;
+    
 }
