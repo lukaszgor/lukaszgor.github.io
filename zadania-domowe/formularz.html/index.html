@@ -4,36 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+   
+   <div id="kontener2">
     <form action="https://formspree.io/lukasz.gg13@gmail.com" method="POST">
         <label for="imie">Imię:</label><br />
-        <input type="text" name="imie" id="imie" required><br />
+        <input type="text" name="imie" id="imie"class="pole" required><br />
         <label for="nazwisko">nazwisko:</label><br />
-        <input type="text" name="nazwisko" id="nazwisko" required><br />
+        <input type="text" name="nazwisko" id="nazwisko" class="pole" required><br />
         <label for="email">email:</label><br />
-        <input type="text" name="email" id="email" required><br />
+        <input type="text" name="email" id="email" class="pole" required><br />
         <label for="tel">tel:</label><br />
-        <input type="text" name="tel" id="tel" required><br />
+        <input type="text" name="tel" id="tel" class="pole" required><br />
 
 
         <label for="wiadomosc">wiadomosc:</label><br />
         <!--     <input type="text" name="wiad" id="wiad"><br/> -->
-        <textarea name="wiadomosc" id="wiadomosc" rows="10" cols="30" placeholder="Prosze napisac wiadomosc tutaj..."></textarea> <br>
+        <textarea name="wiadomosc" id="wiadomosc" rows="10" cols="30" class="pole" placeholder="Prosze napisac wiadomosc tutaj..."></textarea> <br>
 
-        <label for="miasta">Miasta</label>
-        <select name="miasta" id="miasta">   <option value="">Kraków</option>    <option value="" selected>Warszawa</option>   <option value="">Poznan</option> </select><br>
+        <label for="miasta">Miasta</label> <br>
+        <select name="miasta" id="miasta" class="pole" >   <option value="">Kraków</option>    <option value="" selected>Warszawa</option>   <option value="">Poznan</option> </select><br>
         
      
         
               
 Płec: <br>
-<label for="facet">
+<label>
 <input type="radio" name="gender" id="facet" value="facet" checked required>Mężczyzna<br></label>
 <label for="kobieta"> 
 <input type="radio" name="gender" value="kobieta" id="kobieta" required> Kobieta<br></label>
-<label for="gender">  <input type="radio" name="gender" value="inne" id="gender" required> Gender<br></label>
+
         
         
         
@@ -42,10 +45,12 @@ Płec: <br>
         
         <label for="checkbox">Checkbox:<br></label>
         <input type="checkbox" name="zgoda" id="checkbox" value="Bike" required> zgoda na dane osobowe<br>
-
-        <input type="submit" value="send">
+<br>
+        <input type="submit" value="send" id="przycisk">
 
     </form>
+    </div>
+    
 
 </body>
 

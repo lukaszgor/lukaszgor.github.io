@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    color: white;
+    
+}
+#kontener1
+{
+    background-color: white;
+    
+    padding: 10px;
+}
+#kontener2
+{
+    background-color: #213b50 ;
+    width: 850px;
+    padding: 20px;
+    
+}
+#przycisk{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    
+}
+input:empty{
+    background-color:  #2b4a64 ;
+    border: none;
+}
+textarea:empty{
+    background-color:  #2b4a64 ;
+    border: none;
+}
+input:focus{
+    background-color: #4e708c ;
+    border: #ffffff ;
+}
+textarea:focus{
+    background-color: #4e708c ;
+    border: #ffffff ;
+}
+textarea:focus::placeholder{
+    color: white;
+}
+select{
+    background-color:  #2b4a64 ;
+    border: none;
+    color: white;
+}
+
+
+.pole{
+    width: 300px;
+}
