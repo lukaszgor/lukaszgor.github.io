@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+@media all and (max-width:1200px) {
+    nav li{
+        text-align: center;
+    }
+    .zdjecie1,.zdjecie2,.zdjecie3{
+        width: 50%;
+    }
+    .adresy{
+        width: 100%;
+        margin: 0;
+    }
+     .googlefonty{
+        width: 90%;
+    }
+} 
+
+@media all and (max-width:768px) {
+    .toggle{
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    ul{
+        display: none;
+    }
+    #drop:checked+ul{
+        display: block;
+    }
+    li{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    section{
+        padding: 10%;
+    }
+    img{
+        max-height: inherit;
+    }
+    #omnie{
+        width: 90%;
+    }
+    #umiejetnosci{
+        width: 100%;
+    }
+    .zdjecie1,.zdjecie2,.zdjecie3{
+        width: 100%;
+    }
+    .googlefonty{
+        width: 90%;
+    }
+} 
+
+@media all and (max-width:680px) {
+    form input{
+        width: 90%;
+    }
+    form textarea{
+         width: 90%;
+    }
+    form{
+        90px;
+    }
+    #stopa{
+        width: 60%;
+    }
+    html{
+        padding: 0 40px 50px;
+    }
+    nav{
+        width: 90%;
+    }
+    .trzyzdjecia>div{
+        width: 100%;
+    }
+    #imie,#nazwisko,#fed{
+        font-size: 40px;
+    }
+    form{
+        margin-top: 15px;
+    }
+    #name{
+        margin: 0;
+    }
+} 
+
+@media all and (max-width:480px) {
+  form input{
+        width: 90%;
+    }
+    form textarea{
+         width: 90%;
+    }
+    form{
+        90px;
+    }
+    #stopa{
+        width: 60%;
+    }
+     html{
+        padding: 0 40px 50px;
+    }
+    .trzyzdjecia>div{
+        width: 100%;
+    }
+    
+} 

@@ -1,0 +1,346 @@
+
+html{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    
+}
+header{
+    background-image: url(img/header-background.jpg);
+    width: 100%;
+    height: 600px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav{
+    text-align: right;
+    background-color: white;
+       position: fixed; 
+    top: 0; 
+    width: 100%;
+    
+    z-index: 100;
+}
+#name{
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+#imie{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+#nazwisko{
+    color: green;
+    font-size: 80px;
+    text-align: center;
+}
+#fed{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+section img{
+    padding: 60px;
+    width:300px;
+    height: 300px;
+    
+   
+}
+#omnie{
+    display: inline-block;
+    width:48%;
+    height: 200px;
+    margin-top: 0px;
+    padding-bottom: 60px;
+    
+   
+}
+.omnie1{
+    font-size: 30px;
+   
+}
+.omnie1::first-letter{
+    color: green; 
+}
+.omnie2{
+    text-align: justify;
+}
+section{
+    border-bottom: 5px solid grey;
+     background-color: #e1f7f7;
+}
+#umiejetnosci{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 30px;
+}
+.moje{
+    font-size: 20px;
+}
+.um{
+    font-size: 20px;
+    color: green;
+}
+
+
+#umiejetnosci p spam{
+    text-align: center;
+    padding: 60px;
+    
+}
+#obrazy{
+    text-align: center;
+    padding-bottom: 40px;
+}
+#trzyzdjecia{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+}
+#trzyzdjecia img{
+    width: 400px;
+    height: 380px;
+    padding: 5px;
+}
+footer{
+    background-color: #213b50;
+    width: 100%;
+    height: 580px;
+    padding-top: 20px;
+}
+.l{
+    
+    color: white;
+    font-size:40px;
+    padding-left: 10px;
+}
+.g{
+    padding:10px;
+    color: green;
+    font-size: 40px;
+    padding-left: 10px;
+}
+#imiona{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+.adresy{
+    color: white;
+    padding: 20px;
+    width: 160px;
+}
+.adresy a{
+    color: green;
+}
+.googlefonty{
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+    height: 50px;
+}
+.googlefonty a{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid grey;
+}
+form{
+    display: inline-block;
+    padding-top: 20px;
+}
+#stopa p{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+ footer #stopa{
+    background-color:#02101c;
+    width: 100%;
+    height: 30px;
+}
+form input{
+    background-color:#03457b;
+    border-radius: 5px;
+    border:none;
+    width: 350px;
+    height: 25px;
+    color: white;
+    margin-left: 10px;
+}
+form textarea{
+    background-color:#03457b;
+    border-radius: 5px;
+    border:none;
+    width: 350px;
+    height: 45px;
+    margin-left: 10px;
+}
+#przycisk{
+    background-color: green;
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+}
+/*animacje*/
+header li a:hover{
+    color: green;  
+}
+#przycisk:hover{
+    background-color: greenyellow;
+}
+.googlefonty a:hover{
+    background-color: skyblue;
+}
+/*/////////////////////////////////*/
+
+
+.zdjecie1 {
+    background-image: url(img/portfolio1.jpg);
+}
+.zdjecie1 span.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+.zdjecie1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    border: 4px solid white;
+    
+}
+
+.zdjecie1:hover span.text {
+    opacity: 1;
+}
+
+.zdjecie1:hover .overlay {
+    opacity: 0.3;
+}
+.zdjecie2 {
+    background-image: url(img/portfolio2.jpg);
+}
+
+.zdjecie2 span.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.zdjecie2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    border: 4px solid white;
+}
+
+.zdjecie2:hover span.text {
+    opacity: 2;
+}
+
+.zdjecie2:hover .overlay {
+    opacity: 0.5;
+}
+
+.zdjecie3 {
+    background-image: url(img/portfolio3.jpg);
+}
+
+.zdjecie3 span.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 70px;
+}
+
+.zdjecie3 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0;
+    width: 800px;
+    height: 100%;
+    background-color: darkblue;
+    border: 4px solid white;
+    
+}
+.zdjecie3:hover span.text {
+    opacity: 2;
+}
+
+.zdjecie3:hover .overlay {
+    opacity: 0.5;
+}
+.zdjecie3 .overlay{
+    position: absolute;
+    margin: 0px auto;
+    background-color: darkblue;
+    opacity:0;
+    display: block;
+    width: 100%;
+}
+
+.trzyzdjecia {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.trzyzdjecia>div{
+    width:33%;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    height:350px;
+}
+#drop,label{
+    display: none;
+}
+#ikonki figure{
+   
+    text-align: center;
+    display: inline-block;
+    padding: 5px;  
+}
+#ikonki{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
