@@ -113,5 +113,43 @@
     .trzyzdjecia>div{
         width: 100%;
     }
+} 
+
+
+
+
+
+
+
+
+@media all and (max-width:400px) {
+  form input{
+        width: 90%;
+    }
+    form textarea{
+         width: 90%;
+    }
+    form{
+        90px;
+    }
+    #stopa{
+        width: 60%;
+    }
+     html{
+        padding: 0 40px 50px;
+    }
+    .trzyzdjecia>div{
+        width: 100%;
+    }
+    .googlefonty a{
+        display: block;
+        padding: 8px;
+        
+    }
+    .googlefonty>i{
+        padding: 5px;
+        
+    }
     
 } 
+ 

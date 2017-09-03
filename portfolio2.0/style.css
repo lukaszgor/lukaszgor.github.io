@@ -79,7 +79,7 @@ section{
 }
 #umiejetnosci{
     width: 100%;
-    height: 500px;
+    height: auto;
     text-align: center;
     padding-top: 30px;
 }
@@ -130,7 +130,7 @@ footer{
     padding-left: 10px;
 }
 #imiona{
-    width: 300px;
+    width: 98%;
     height: 100px;
     padding: 10px;
 }
