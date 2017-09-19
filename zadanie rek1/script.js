@@ -8,7 +8,7 @@ var interval = setInterval(function() {
     
     if (i == time) {
         clearInterval(interval);
-        $("h2").hide("slow");
+        $("h2").hide("fast");
     }
     ++i;  
 }, 1000);
