@@ -1,5 +1,5 @@
 'use strict';
-var time = 20; /* how long the timer runs for */
+var time = 20; //jak długo
 var initialOffset = '440';
 var i = 1 
 var interval = setInterval(function() {
@@ -8,6 +8,7 @@ var interval = setInterval(function() {
     
     if (i == time) {
         clearInterval(interval);
+        $("h2").hide("slow");
     }
     ++i;  
 }, 1000);
