@@ -13,7 +13,7 @@
 //    ++i;  
 //}, 1000);
 /////////////////////////////////////////////cos zmajstrowane 
- var time = 20;
+ var time = 5;
 var initialOffset = '440';
 var i=1;
 
