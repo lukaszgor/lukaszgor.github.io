@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
 }
+svg{
+    width: 160;
+    height: 160;
+}
 body{
     background-color: black;
     
@@ -47,7 +51,6 @@ p{
    position: relative;
     left: 60px;
 
-    
 }
 
 
@@ -92,3 +95,7 @@ svg {
   stroke-dashoffset: 440;
   transition: all 1s linear;
 }
+
+
+
+
