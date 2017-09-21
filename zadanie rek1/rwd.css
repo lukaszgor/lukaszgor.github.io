@@ -260,7 +260,7 @@ p{
 }
 #time{
     display: inline-block;
-    width: 10%;
+    width: 30%;
     height: 150px;
    position: relative;
     left: 60px;
@@ -275,7 +275,7 @@ p{
     line-height: 125px;
     width: 100%;
     color: white;
-    left: 20px;
+    left: 0px;
 }
 
 svg {
@@ -406,10 +406,10 @@ p{
 }
 #time{
     display: inline-block;
-    width: 10%;
+    width: 100%;
     height: 150px;
    position: relative;
-    left: 60px;
+    left: 40px;
 
     
 }
@@ -420,7 +420,7 @@ p{
     position: absolute;
     line-height: 125px;
     width: 100%;
-    color: white;
+    color: goldenrod;
     left: 20px;
 }
 
