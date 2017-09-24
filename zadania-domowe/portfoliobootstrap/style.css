@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main a{
+    font-size: 20px;
+    color: darkgreen;
+}
+ #main a:hover{
+    color: greenyellow;
+}
+#okulary{
+    background-image: url(img/header-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 70px;
+
+    margin: 0; 
+   
+}
+
+#okulary>.row>div>span{
+    font-size: 60px;
+    color:white;
+}
+#okulary p{
+    color: white;
+}
+#okulary>.row>div>#gorski{
+    color: green;
+}
+#gorski{
+    color: green;
+}
+#napisygora{
+    padding-top: 40px;
+   
+}
+#niebieskietlo{
+    background-color: #E4EEF5;
+    padding: 20px;
+     border-bottom: 5px solid gray;
+}
+img{
+    
+    height: 200px;
+}
+H2::first-letter{
+    color: green;
+}
+.umie{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.umie>p{
+    font-size: 15px;
+}
+#four img{
+    width: 100px;
+    height: 100px;
+}
+#four span{
+    font-size: 30px;
+}
+.zdjecie-1{
+    background-image:url(img/portfolio1.jpg);
+}
+.zdjecie-2{
+    background-image:url(img/portfolio2.jpg);
+}
+.zdjecie-3{
+    background-image:url(img/portfolio3.jpg);
+}
+.fota{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+}
+.space{
+    padding: 20px;
+}
