@@ -87,7 +87,7 @@ H2::first-letter{
     padding: 20px;
 }
 #form{
-    background-color: midnightblue;
+    background-color: #213b50;
     padding-top: 20px;
     padding-top: 20px;
 }
@@ -106,7 +106,7 @@ H2::first-letter{
     padding-top: 20px;
     transition: 1s;
 }
-.in{
+#form .in{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 300px;
@@ -132,7 +132,7 @@ H2::first-letter{
 #fonty>a{
     font-size: 40px;
     padding-right: 20px;
-    background-color: midnightblue;
+    background-color: #213b50;
     border: 2px solid gray;
     transition: 1s;
 }
@@ -150,17 +150,41 @@ H2::first-letter{
     color: black;
 }
 footer{
-    background-color: darkblue;
+    background-color: #11171c;
     color: white;
 }
 /*//////////////////////////////////////*/
 .mask {
-    background-color: rgba(14,216,214,0.85);
+    background-color: rgba(32, 47, 47, 0.85);
     height: 100%;
     opacity: 0;
     transition: all 0.4s;
     position: relative;
+padding: 5px;
 }
-.mask{
+.mask:hover{
     opacity: 1;
+}
+.mask .fa {
+    color: #fff;
+    font-size: 3em;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.mask i{
+    width: 0;
+}
+.mask h5 {
+    color: #fff;
+/*    font-size: 3em;*/
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+.content{
+     border: 2px solid white;
+    height: 100%;
 }
