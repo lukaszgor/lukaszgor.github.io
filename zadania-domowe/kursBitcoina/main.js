@@ -1,7 +1,10 @@
 'use strict';
 $( document ).ready( function() {
-    
+    var oldValueBuy = 0;
+    var oldValueSell = 0;
    
+
+    
 function no(){
     
 $.getJSON('https://blockchain.info/pl/ticker', function (date) {
@@ -9,17 +12,30 @@ $.getJSON('https://blockchain.info/pl/ticker', function (date) {
 console.log(date);
    
     
-   $("#kurs1").text("Kupno: "+ date.PLN.buy);    
-   $("#kurs2").text("Sprzedaż: "+ date.PLN.sell);  
+   $("#kurs1").text(date.PLN.buy);    
+   $("#kurs2").text( date.PLN.sell); 
+    
+    console.log("Zmiana buy: " + (date.PLN.buy-oldValueBuy))
+    console.log("Zmiana sell: " + (date.PLN.sell-oldValueSell))
+    
+    oldValueBuy = date.PLN.buy;
+    oldValueSell = date.PLN.sell;
     
     
-     
-       
+
+    
+    
     
 } );
     }
     no();
+   
 window.setInterval(no,5000);
+    
+    
+    
+    
+    
 
 
    
