@@ -1,195 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-span{
-    color: white;
-}
-#main a{
-    font-size: 20px;
-    color: darkgreen;
-    transition: 1s;
-}
- #main a:hover{
-    color: greenyellow;
-}
-#okulary{
-    background-image: url(img/header-background.jpg);
-    background-size: cover;
-    height: 100vh;
-    padding-top: 130px;
-
-    margin: 0; 
-   
-}
-
-#okulary>.row>div>span{
-    font-size: 60px;
-    color:white;
-}
-#okulary p{
-    color: white;
-}
-#okulary>.row>div>.gorski{
-    color: green;
-}
-.gorski{
-    color: green;
-}
-#napisygora{
-    padding-top: 40px;
-   
-}
-#niebieskietlo{
-    background-color: #E4EEF5;
-    padding: 20px;
-     border-bottom: 5px solid gray;
-}
-img{
-    
-    height: 200px;
-}
-H2::first-letter{
-    color: green;
-}
-.umie{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 30px;
-}
-.umie>p{
-    font-size: 15px;
-}
-.czarnytext{
-    color: black;
-}
-#four img{
-    width: 100px;
-    height: 100px;
-}
-#four span{
-    font-size: 30px;
-}
-.zdjecie-1{
-    background-image:url(img/portfolio1.jpg);
-}
-.zdjecie-2{
-    background-image:url(img/portfolio2.jpg);
-}
-.zdjecie-3{
-    background-image:url(img/portfolio3.jpg);
-}
-.fota{
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-}
-.space{
-    padding: 20px;
-}
-#form{
-    background-color: #213b50;
-    padding-top: 20px;
-    padding-top: 20px;
-}
-#dane{
-    font-size: 40px;
-}
-.smalltext{
- font-size: 20px;   
-}
-#link1{
-    font-size: 20px;
-    text-decoration: underline;
-    color: darkgreen;
-}
-#formularz{
-    padding-top: 20px;
-    transition: 1s;
-}
-#form .in{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 300px;
-    background-color: #03457b;
-    border-radius: 2%;
-    border: none;
-}
-#wyslij{
-    border: none;
-    border-radius: 10%;
-    background-color: green;
-    color: white;
-    width: 100px;
-    height: 50px;
-    font-size: 20px; 
-    transition: 1s;
-}
-#wyslij:hover{
-    background-color: greenyellow;
-    
-}
-
-#fonty>a{
-    font-size: 40px;
-    padding-right: 20px;
-    background-color: #213b50;
-    border: 2px solid gray;
-    transition: 1s;
-}
-#fonty>a:hover{
-    background-color: aquamarine;
-    
-    
-}
-#fonty>a i{
- padding-left: 15px;   
-    color: white;
-}
-#fonty>a i:hover{
- padding-left: 15px;   
-    color: black;
-}
-footer{
-    background-color: #11171c;
-    color: white;
-}
-/*//////////////////////////////////////*/
-.mask {
-    background-color: rgba(32, 47, 47, 0.85);
-    height: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-    position: relative;
-padding: 5px;
-}
-.mask:hover{
-    opacity: 1;
-}
-.mask .fa {
-    color: #fff;
-    font-size: 3em;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-50%,-50%);
-}
-.mask i{
-    width: 0;
-}
-.mask h5 {
-    color: #fff;
-/*    font-size: 3em;*/
-    position: absolute;
-    top: 70%;
-    left: 48%;
-    transform: translate(-50%,-50%);
-}
-.content{
-     border: 2px solid white;
-    height: 100%;
-}
-
-/*////////////////////////////////////////////*/
-
-
+<div  class="col-md-4 col-xs-12 col-sm-12 text-center square">
+                 
+                
+                     <div class="row">
+                         <div  class="col-md-6 col-xs-12 col-sm-6 text-left ">
+                             <p>A CRAZY APP #1</p>Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         </div>
+                         <div  class="col-md-6 col-xs-12 col-sm-6 text-right ">
+                             
+                             <div class="yellow"></div>
+                            
+                             
+                             
+                         </div>
+                         <div  class="col-md-6 col-xs-12 col-sm-6 text-right "></div>
+                         <div  class="col-md-6 col-xs-12 col-sm-6 text-center ">
+                             
+                            <button id="view">VIEW MORE</button>
+                             
+                             
+                         </div>
+                         
+                         <div class="col-md-6 col-xs-12 col-sm-6 text-left gogapp">
+                             <div class="app"></div>
+                         </div>
+                         <div class="col-md-6 col-xs-12 col-sm-6 text-right gogapp">
+                             <div class="google"></div>
+                         </div>
+                         
+                         
+                     
+                     
+                 </div>
+                 
+                 
+                 
+             </div> 

@@ -3,7 +3,7 @@ $( document ).ready( function() {
     var oldValueBuy = 0;
     var oldValueSell = 0;
    
-
+  
     
 function no(){
     
@@ -14,17 +14,52 @@ console.log(date);
     
    $("#kurs1").text(date.PLN.buy);    
    $("#kurs2").text( date.PLN.sell); 
-    
+//    
+    oldValueBuy=date.PLN.buy;
+    oldValueSell=date.PLN.sell;
+//    
     console.log("Zmiana buy: " + (date.PLN.buy-oldValueBuy))
     console.log("Zmiana sell: " + (date.PLN.sell-oldValueSell))
-    
-    oldValueBuy = date.PLN.buy;
-    oldValueSell = date.PLN.sell;
+ 
     
     
-
+//   
+//    
+//    if (jeden>0){
+//        $(".ws").text("wzrost");
+//        console.log("wzrost");
+//    }
+//    if(jeden<0){
+//        $(".ws").text("spadek");
+//         console.log("spadek");
+//    }
+//    if(jeden=0){
+//        $(".ws").text("stale");
+//        consol.log("rowne");
+//    }
+//    
+//    
+//    
+//    
+//    
+//    
+//    
+//    if (dwa>0){
+//        $(".ws").text("wzrost");
+//        console.log("wzrost");
+//    }
+//    if(dwa<0){
+//        $(".ws").text("spadek");
+//         console.log("spadek");
+//    }
+//    if(dwa=0){
+//        $(".ws").text("stale");
+//        consol.log("rowne");
+//    }
     
     
+//    
+  
     
 } );
     }
