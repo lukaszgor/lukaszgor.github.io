@@ -1,0 +1,185 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html { overflow-y: hidden; }
+
+#snow{
+    width: 100%;
+    background-image: url(snieggif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.front{
+    color: white;
+    transition: 1s;
+   font-family: 'Roboto Mono', monospace;
+}
+.front:hover{
+    color: cadetblue;
+}
+#main{
+     background-image: url(darkness.png);
+    border: none;
+      
+}
+#main a{
+    color: white;
+    font-size: 20px;
+    transition: 3;
+}
+#main a:hover{
+    color: green;
+    font-size: 30px;
+}
+.um1{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.um1 img{
+    width: 120px;
+    height: 120px;
+}
+.um1 p{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    transition: 1s;
+}
+.um1 p:hover{
+    color: aquamarine;
+}
+#rain{
+    width: 100%;
+    background-image: url(zig%20zag%20wool.png);
+    padding: 100px;
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    /* Background pattern from Subtle Patterns */
+}
+#rain p{
+    background-color: black;
+    opacity: 0.8; 
+   filter:(opacity=50);
+    padding: 30px;
+    border-radius: 10px;
+    transition: 2000;
+    font-size: 20px;
+    color: white;
+}
+#fire{
+    width: 100%;
+    background-image: url(ogiengif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+#fire p{
+    font-size: 35px;
+    color: white;
+}
+#textomnie{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kontakt{
+     width: 100%;
+    background-image: url(zig%20zag%20wool.png);
+    ;
+    padding: 100px;
+}
+.kontakt p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.formandcont{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.in{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+     background-color: black;
+}
+#wyslij{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+#wyslij:hover{
+    background-color: white;
+    color: green;
+}
+textarea{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+ 
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: green;
+    font-size: 20px;
+}
+input, select, textarea{
+    color: blueviolet;
+    font-size: 15px;
+}
+
+textarea:focus, input:focus {
+    color: blueviolet;
+    font-size: 15px;
+}
+footer{
+    background-image: url(darkness.png);
+    color: white;  
+}
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: green url(arrows2.png);
+    background-size: cover;
+/*
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+*/
+    color: white;
+    border-radius: 10px;
+}
+
+.fa-linkedin-square{
+    color: skyblue;
+    transition: 1s;
+}
+.fa-linkedin-square:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+.fa-facebook-square{
+    color: dodgerblue;   
+}
+.fa-facebook-square:hover{
+    color: aliceblue;
+}
