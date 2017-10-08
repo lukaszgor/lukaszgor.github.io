@@ -157,7 +157,7 @@ a.back-to-top {
 	position: fixed;
 	z-index: 999;
 	right: 20px;
-	bottom: 20px;
+	bottom: 60px;
 	background: green url(arrows2.png);
     background-size: cover;
 /*
