@@ -18,6 +18,10 @@ box-sizing: border-box;
     color: white;
     transition: 1s;
    font-family: 'Roboto Mono', monospace;
+    font-size:5vmin;
+}
+#first{
+    margin-top: 60px;
 }
 .front:hover{
     color: cadetblue;
@@ -47,7 +51,7 @@ box-sizing: border-box;
 .um1 p{
     margin-top: 30px;
     color: white;
-    font-size: 20px;
+    font-size: 4vmin;
     font-family: 'Lobster', cursive;
     transition: 1s;
 }
@@ -57,7 +61,6 @@ box-sizing: border-box;
 #rain{
     width: 100%;
     background-image: url(zig%20zag%20wool.png);
-    padding: 100px;
     color: white;
     font-family: 'Concert One', cursive;
     font-size: 40px;
@@ -81,7 +84,7 @@ box-sizing: border-box;
     padding: 100px;
 }
 #fire p{
-    font-size: 35px;
+    font-size:50hv;
     color: white;
 }
 #textomnie{
@@ -89,14 +92,16 @@ box-sizing: border-box;
     margin-bottom: 50px;
     font-family: 'Lato', sans-serif;
 }
+#textomnie p{
+    font-size: 50wh;
+}
 .kontakt{
      width: 100%;
     background-image: url(zig%20zag%20wool.png);
-    ;
     padding: 100px;
 }
 .kontakt p{
-    font-size: 30px;
+    font-size: 30wh;
     color: white;
     font-family: 'Lato', sans-serif;
 }
@@ -105,8 +110,8 @@ box-sizing: border-box;
     margin-bottom: 60px;
 }
 .form1{
-    width: 300px;
-    height: 50px;
+    width: 50%;
+    height: 50%;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -131,6 +136,8 @@ textarea{
     border: none;
     border-radius: 10px;
     background-color: black;
+    width: 50%;
+    height: 20%;
  
 }
 ::-webkit-input-placeholder {  Chrome/Opera/Safari 
@@ -158,8 +165,8 @@ a.back-to-top {
 	position: fixed;
 	z-index: 999;
 	right: 20px;
-	bottom: 60px;
-	background: green url(arrows2.png);
+	bottom: 90px;
+	background: rgba(183, 211, 240, 0.3) url(arrows2.png);
     background-size: cover;
 /*
 	-webkit-border-radius: 30px;
@@ -191,6 +198,17 @@ a.back-to-top {
 
 @media all and (min-width:1200px) {
     html { overflow-y: hidden; }
+    #fire p{
+    font-size:50px;
+    color: white;
+}
+    .kontakt p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+    
+    
 } 
 
 /*//////////////////////////////*/
