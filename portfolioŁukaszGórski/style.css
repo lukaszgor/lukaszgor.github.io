@@ -5,7 +5,7 @@ margin: 0;
 box-sizing: border-box;
 }
 
-html { overflow-y: hidden; }
+
 
 #snow{
     width: 100%;
@@ -34,7 +34,7 @@ html { overflow-y: hidden; }
 }
 #main a:hover{
     color: green;
-    font-size: 30px;
+    font-size: 20px;
 }
 .um1{
     margin-top: 150px;
@@ -61,7 +61,7 @@ html { overflow-y: hidden; }
     color: white;
     font-family: 'Concert One', cursive;
     font-size: 40px;
-    /* Background pattern from Subtle Patterns */
+     Background pattern from Subtle Patterns 
 }
 #rain p{
     background-color: black;
@@ -87,6 +87,7 @@ html { overflow-y: hidden; }
 #textomnie{
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
 }
 .kontakt{
      width: 100%;
@@ -103,7 +104,7 @@ html { overflow-y: hidden; }
     margin-top: 80px;
     margin-bottom: 60px;
 }
-.in{
+.form1{
     width: 300px;
     height: 50px;
     outline: none;
@@ -132,7 +133,7 @@ textarea{
     background-color: black;
  
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {  Chrome/Opera/Safari 
   color: green;
     font-size: 20px;
 }
@@ -186,3 +187,11 @@ a.back-to-top {
 #copy{
     margin-top: 5px;
 }
+/*////////////////////////////rwd////////*/
+
+@media all and (min-width:1200px) {
+    html { overflow-y: hidden; }
+} 
+
+/*//////////////////////////////*/
+
