@@ -1,0 +1,43 @@
+
+.space-input{
+  padding: 10px;
+}
+.reset{
+  padding: 20px;
+}
+/* section{
+  background: rgba(255, 0, 0, 0.25),
+
+  url("./ari.jpg");
+  width: 100%;
+
+} */
+section{
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    rgba(78, 56, 56, 0.45),
+    rgba(85, 61, 61, 0.45)
+  ),
+  /* bottom, image */
+  url(".//route1.jpg");
+  background-size: cover;
+}
+*{
+  font-size: 20px;
+  color: white;
+  font-family: 'Pangolin', cursive;
+}
+.par-ile-spali p{
+  font-size: 50px;
+  padding: 10px;
+}
+input{
+  background-color: rgba(78, 56, 56, 0.45);
+  border: 0.5px solid white;
+  border-radius: 10px;
+  outline: none;
+}
+.alertkropka{
+  font-size: 15px;
+}
